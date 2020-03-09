@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var isStart = false
+    var isStart = false //Random start status
     var data: Array<Activity> = Array()
     
     @IBOutlet weak var mainImage: UIImageView!{
@@ -35,6 +35,7 @@ class ViewController: UIViewController {
         createData()
     }
     
+    // for change value of activity
     func changeLabelValue(activityName: String, activityPict: String) {
         activityLabel.text = "Lets Go\n\(activityName)!"
         activityLabel.halfTextColorChange(
@@ -62,6 +63,8 @@ class ViewController: UIViewController {
         }
     }
     
+    
+    //setup data
     func createData() {
         data.append(Activity(name: "play Dota 2", picture: "dota2"))
         data.append(Activity(name: "Nonton Bioskop", picture: "bioskop"))
