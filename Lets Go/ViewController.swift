@@ -8,6 +8,7 @@
 
 import UIKit
 
+//NC2
 class ViewController: UIViewController {
     
     var isStart = false //Random start status
