@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F990E116241A5C080021D747 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F990E115241A5C080021D747 /* CategoryViewController.swift */; };
+		F99E6CD6241F38AA00808DD1 /* random.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F99E6CD5241F38AA00808DD1 /* random.mp3 */; };
 		F9CE188424109BE50061980A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE188324109BE50061980A /* AppDelegate.swift */; };
 		F9CE188624109BE50061980A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE188524109BE50061980A /* SceneDelegate.swift */; };
 		F9CE188824109BE50061980A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CE188724109BE50061980A /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F990E115241A5C080021D747 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		F99E6CD5241F38AA00808DD1 /* random.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = random.mp3; sourceTree = "<group>"; };
 		F9CE188024109BE50061980A /* Lets Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lets Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9CE188324109BE50061980A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9CE188524109BE50061980A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,12 +68,14 @@
 		F9CE188224109BE50061980A /* Lets Go */ = {
 			isa = PBXGroup;
 			children = (
+				F99E6CD5241F38AA00808DD1 /* random.mp3 */,
 				F9CE189D2410E8ED0061980A /* giphy.gif */,
 				F9CE18992410E2830061980A /* UIImage+Gif.swift */,
 				F9CE18972410ADC40061980A /* Helper.swift */,
 				F9CE188324109BE50061980A /* AppDelegate.swift */,
 				F9CE188524109BE50061980A /* SceneDelegate.swift */,
 				F9CE188724109BE50061980A /* ViewController.swift */,
+				F990E115241A5C080021D747 /* CategoryViewController.swift */,
 				F9CE188924109BE50061980A /* Main.storyboard */,
 				F9CE188C24109BE60061980A /* Assets.xcassets */,
 				F9CE188E24109BE60061980A /* LaunchScreen.storyboard */,
@@ -141,6 +147,7 @@
 				F9CE188D24109BE60061980A /* Assets.xcassets in Resources */,
 				F9CE189E2410E8ED0061980A /* giphy.gif in Resources */,
 				F9CE188B24109BE50061980A /* Main.storyboard in Resources */,
+				F99E6CD6241F38AA00808DD1 /* random.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +160,7 @@
 			files = (
 				F9CE18C024122C9E0061980A /* Activity.swift in Sources */,
 				F9CE188824109BE50061980A /* ViewController.swift in Sources */,
+				F990E116241A5C080021D747 /* CategoryViewController.swift in Sources */,
 				F9CE188424109BE50061980A /* AppDelegate.swift in Sources */,
 				F9CE188624109BE50061980A /* SceneDelegate.swift in Sources */,
 				F9CE189A2410E2830061980A /* UIImage+Gif.swift in Sources */,
